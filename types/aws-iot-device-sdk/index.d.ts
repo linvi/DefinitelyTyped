@@ -95,7 +95,7 @@ export interface DeviceOptions extends mqtt.IClientOptions {
    *
    * 1. https://github.com/aws/aws-iot-device-sdk-js#websockets
    */
-  protocol?: "mqtts" | "wss";
+  protocol?: "mqtts" | "wss" | "wss-custom-auth";
   /**
    * if protocol is set to "wss", you can use this parameter to pass
    * additional options to the underlying WebSocket object;
